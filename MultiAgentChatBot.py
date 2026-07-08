@@ -15,7 +15,7 @@ from langchain_core.prompts import ChatPromptTemplate
 
 load_dotenv(verbose=True)
 
-DATA_DIR = os.path.join(os.path.dirname(__file__), "data")
+DATA_DIR = os.path.join(os.path.dirname(__file__), "documents")
 DB_DIR = os.path.join(os.path.dirname(__file__), "chroma_db")
 
 LOADERS = {

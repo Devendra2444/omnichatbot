@@ -12,7 +12,7 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.runnables import RunnablePassthrough
 
 load_dotenv(verbose=True)
-path = "/home/deven/Projects/RAG/OmniRAG/data"
+path = "/home/deven/Projects/RAG/OmniRAG/documents"
 documents = []
 
 '''if os.path.exists(path):

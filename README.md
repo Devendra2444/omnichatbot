@@ -15,5 +15,5 @@ chainlit run MultiAgentChatBot.py
 
 ## Setup
 1. Add your `GROQ_API_KEY` to `.env`
-2. Place files in the `data/` folder
+2. Place files in the `documents/` folder
 3. Run the app and ask questions in plain English
